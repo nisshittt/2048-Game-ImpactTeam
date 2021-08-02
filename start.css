@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+/* .container{
+
+} */
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background: deepskyblue;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.wrapper {
+    height: 100px;
+    /*This part is important for centering*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .typing-game {
+    width: 10ch;
+    animation: typing 2s steps(9), blink .2s step-start infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid transparent;
+    font-family: monospace;
+    font-size: 2em;
+    -webkit-animation: typing 2s steps(9), blink .2s step-start infinite alternate;
+}
+.typing-team {
+  width: 18ch;
+  animation: typing 2s steps(9), blink .2s step-start infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid transparent;
+  font-family: monospace;
+  font-size: 2em;
+  -webkit-animation: typing 2s steps(9), blink .2s step-start infinite alternate;
+}
+.blue{
+  color: blue;
+  font-size: 25px;
+}
+.blue1{
+  color: blue;
+  font-size: 30px;
+}
+.red{
+  color: rgba(255, 0, 0, 0.753);
+}
+.instruction_play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_play{
+  height: 50px;
+  width: 100px;
+  border: none;
+  outline: none;
+  font-size: 35px;
+  padding: 7px 35px;
+  background-color: rgb(0, 119, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn_play:hover{
+  cursor: pointer;
+}
+.instruction_lft{
+  margin-left: -125px;
+} 
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
