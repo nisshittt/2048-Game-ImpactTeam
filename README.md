@@ -1,3 +1,3 @@
 # 2048-Game-ImpactTeam
 
-Game : https://baburao-2708.github.io/2048-Game-ImpactTeam/start.html
+Game : https://2048-game-site.netlify.app/
